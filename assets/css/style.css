@@ -2,6 +2,84 @@
     background-color: #2C3E50;
 }
 
+.ms-light-green{
+    background-color: #24BC9C;
+    color: #fff;
+}
+
+.ms-light-green p{
+    color: #fff;
+}
+
+.row.hr > :nth-child(odd){
+    width: 20%;
+    background-color: #fff;
+    height: 4px;
+    display: block;
+}
+
+.row.hr-black > :nth-child(odd){
+    width: 20%;
+    background-color: #000000;
+    height: 4px;
+    display: block;
+}
+
+img{
+    max-width: 100%;
+}
+
+.avatar{
+    width: 220px;
+}
+
+h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 54px;
+}
+
 h3{
+    color: #fff;
+}
+
+.ms-form-border{
+    border-width: 0 0 2px 0;
+    border-radius: 0;
+}
+
+.ms-form-border:focus{
+    box-shadow: none;
+    border-color:var(--sec-even);
+}
+
+.form-control.ms-textarea-h{
+    height: 150px;
+}
+
+#contact{
+    background-color: #3A546D;
+    color: #fff;
+}
+
+#contact span{
+    color: #24BC9C;
+}
+
+#contact a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #2C3E50;
     color: #fff;
 }
